@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: steelblue;
+  color: white;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+#color-code {
+  display: block;
+  font-size: 200%;
+}
+
+#controls {
+  background-color: #fff;
+  height: 2em;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: steelblue;
+  font-size: inherit;
+  font-weight: bold;
+  height: 100%;
+  letter-spacing: 1px;
+  outline: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+button:hover {
+  color: #fff;
+  background-color: steelblue;
+}
+
+#game-status {
+  display: inline-block;
+  width: 20%;
+}
+
+.selected {
+  background-color: steelblue;
+  color: #fff;
+}
+
+#container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.square {
+  border-radius: 15%;
+  float: left;
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  transition: background-color 0.5s;
+}
